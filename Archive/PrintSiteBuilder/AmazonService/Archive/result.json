@@ -1,0 +1,417 @@
+{
+  "Asin": "B0D986DNL6",
+  "Attributes": {
+    "variation_theme": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "item_package_weight": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "manufacturer": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "recommended_browse_nodes": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "item_dimensions": [
+      [
+        [
+          [
+            [
+              []
+            ],
+            [
+              []
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              []
+            ],
+            [
+              []
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              []
+            ],
+            [
+              []
+            ]
+          ]
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "product_description": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "brand": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "is_exclusive_product": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "item_name": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "item_package_dimensions": [
+      [
+        [
+          [
+            [
+              []
+            ],
+            [
+              []
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              []
+            ],
+            [
+              []
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              []
+            ],
+            [
+              []
+            ]
+          ]
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "size": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "part_number": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "style": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ],
+    "hand_orientation": [
+      [
+        [
+          []
+        ],
+        [
+          []
+        ]
+      ]
+    ]
+  },
+  "Dimensions": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Item": {
+        "Height": {
+          "Unit": "inches",
+          "Value": 0.03937007870
+        },
+        "Length": {
+          "Unit": "inches",
+          "Value": 11.69291337390
+        },
+        "Weight": null,
+        "Width": {
+          "Unit": "inches",
+          "Value": 8.26771652700
+        }
+      },
+      "Package": {
+        "Height": {
+          "Unit": "inches",
+          "Value": 0.78740157400
+        },
+        "Length": {
+          "Unit": "inches",
+          "Value": 12.59842518400
+        },
+        "Weight": {
+          "Unit": "pounds",
+          "Value": 1.3227735720
+        },
+        "Width": {
+          "Unit": "inches",
+          "Value": 9.05511810100
+        }
+      }
+    }
+  ],
+  "Identifiers": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Identifiers": []
+    }
+  ],
+  "Images": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Images": [
+        {
+          "Variant": 2,
+          "Link": "https://m.media-amazon.com/images/I/7149RmhUjAL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 2,
+          "Link": "https://m.media-amazon.com/images/I/41dknZEme5L.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 2,
+          "Link": "https://m.media-amazon.com/images/I/41dknZEme5L._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 3,
+          "Link": "https://m.media-amazon.com/images/I/71AcipcVUVL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 3,
+          "Link": "https://m.media-amazon.com/images/I/316MPVwzAjL.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 3,
+          "Link": "https://m.media-amazon.com/images/I/316MPVwzAjL._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 4,
+          "Link": "https://m.media-amazon.com/images/I/71eB13NCUtL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 4,
+          "Link": "https://m.media-amazon.com/images/I/31lson9as9L.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 4,
+          "Link": "https://m.media-amazon.com/images/I/31lson9as9L._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 5,
+          "Link": "https://m.media-amazon.com/images/I/71nFFCQSEhL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 5,
+          "Link": "https://m.media-amazon.com/images/I/41uyWZif+oL.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 5,
+          "Link": "https://m.media-amazon.com/images/I/41uyWZif+oL._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 6,
+          "Link": "https://m.media-amazon.com/images/I/71CVAmF+YSL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 6,
+          "Link": "https://m.media-amazon.com/images/I/31aNaQsUV6L.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 6,
+          "Link": "https://m.media-amazon.com/images/I/31aNaQsUV6L._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        }
+      ]
+    }
+  ],
+  "ProductTypes": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "ProductType": "BLANK_BOOK"
+    }
+  ],
+  "Relationships": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Relationships": [
+        {
+          "Type": 1,
+          "ChildAsins": null,
+          "ParentAsins": [
+            "B0D988Z5RQ"
+          ],
+          "VariationTheme": {
+            "Attributes": [
+              "style"
+            ],
+            "Theme": "STYLE_NAME"
+          }
+        }
+      ]
+    }
+  ],
+  "SalesRanks": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "ClassificationRanks": [],
+      "DisplayGroupRanks": []
+    }
+  ],
+  "Summaries": [
+    {
+      "ItemClassification": 1,
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Brand": "�e���v��",
+      "BrowseClassification": {
+        "DisplayName": "�w�K���E���K��",
+        "ClassificationId": "4095902051"
+      },
+      "Color": null,
+      "ItemName": "100�}�X�v�Z�u1���̑����Z�v�̃v�����g (30��)",
+      "Manufacturer": "�e���v��",
+      "ModelNumber": null,
+      "PackageQuantity": null,
+      "PartNumber": "100001",
+      "ReleaseDate": null,
+      "Size": "A4",
+      "Style": "30��",
+      "WebsiteDisplayGroup": "office_product_display_on_website",
+      "WebsiteDisplayGroupName": "Office Product"
+    }
+  ],
+  "VendorDetails": null
+}

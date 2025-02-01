@@ -1,0 +1,381 @@
+﻿{
+  "Asin": "B0DBSNY2LQ",
+  "Attributes": {
+    "variation_theme",
+    {
+      [
+        {
+          "name": "STYLE_NAME",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "item_package_weight",
+    {
+      [
+        {
+          "unit": "kilograms",
+          "value": 0.6,
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "manufacturer",
+    {
+      [
+        {
+          "language_tag": "ja_JP",
+          "value": "テンプリ",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "recommended_browse_nodes",
+    {
+      [
+        {
+          "value": "4095902051",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "item_package_quantity": [
+      {
+        "value": "1",
+        "marketplace_id": "A1VC38T7YXB528"
+      }
+    ],
+    "item_dimensions",
+    {
+      [
+        {
+          "width": {
+            "unit": "centimeters",
+            "value": 21.0
+          },
+          "length": {
+            "unit": "centimeters",
+            "value": 29.7
+          },
+          "height": {
+            "unit": "centimeters",
+            "value": 0.1
+          },
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+
+    "product_description",
+    {
+      [
+        {
+          "language_tag": "ja_JP",
+          "value": "お子様の算数力を向上させるためのベストツール、100マス計算のプリントです。この問題集は、1桁の足し算に特化しており、計算力とスピードを効果的に養うことができます。 特徴: 簡単な問題設定: 1桁の足し算のみを扱い、基礎的な計算力をしっかりと固めます。 シンプルでわかりやすいレイアウト: 子供たちが使いやすいようにデザインされたシンプルなマス目の配置。 充実した練習量: 100問の計算問題が1ページにまとまっており、毎日の練習に最適です。 進捗管理が簡単: 名前記入欄とコメント欄付きで、学習の進捗を簡単に管理できます。 利用方法: 毎日1枚ずつ取り組むことで、計算力を徐々にアップさせましょう。 学校の宿題や家庭学習の補助教材としても最適です。 テスト前の復習やスピードトレーニングとしても活用できます。 この100マス計算プリントを使って、楽しく効率的に計算力を向上させましょう。今すぐ購入して、お子様の算数力アップに役立ててください！",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "brand",
+    {
+      [
+        {
+          "language_tag": "ja_JP",
+          "value": "テンプリ",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "is_exclusive_product",
+    {
+      [
+        {
+          "value": false,
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "item_name",
+    {
+      [
+        {
+          "language_tag": "ja_JP",
+          "value": "100マス計算「1桁の足し算」のプリント (30問)",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "item_package_dimensions",
+    {
+      [
+        {
+          "length": {
+            "unit": "centimeters",
+            "value": 23.0
+          },
+          "width": {
+            "unit": "centimeters",
+            "value": 2.0
+          },
+          "height": {
+            "unit": "centimeters",
+            "value": 32.0
+          },
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "size",
+    {
+      [
+        {
+          "language_tag": "ja_JP",
+          "value": "A4",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "part_number",
+    {
+      [
+        {
+          "value": "100001",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "style",
+    {
+      [
+        {
+          "language_tag": "ja_JP",
+          "value": "30問",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+    "hand_orientation",
+    {
+      [
+        {
+          "value": "左右両方",
+          "marketplace_id": "A1VC38T7YXB528"
+        }
+      ]
+    },
+  "Dimensions": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Item": {
+        "Height": {
+          "Unit": "inches",
+          "Value": 0.03937007870
+        },
+        "Length": {
+          "Unit": "inches",
+          "Value": 11.69291337390
+        },
+        "Weight": null,
+        "Width": {
+          "Unit": "inches",
+          "Value": 8.26771652700
+        }
+      },
+      "Package": {
+        "Height": {
+          "Unit": "inches",
+          "Value": 0.78740157400
+        },
+        "Length": {
+          "Unit": "inches",
+          "Value": 12.59842518400
+        },
+        "Weight": {
+          "Unit": "pounds",
+          "Value": 1.3227735720
+        },
+        "Width": {
+          "Unit": "inches",
+          "Value": 9.05511810100
+        }
+      }
+    }
+  ],
+  "Identifiers": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Identifiers": []
+    }
+  ],
+  "Images": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Images": [
+        {
+          "Variant": 1,
+          "Link": "https://m.media-amazon.com/images/I/61zopY58eVL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 1,
+          "Link": "https://m.media-amazon.com/images/I/31CqZBM7UHL.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 1,
+          "Link": "https://m.media-amazon.com/images/I/31CqZBM7UHL._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 2,
+          "Link": "https://m.media-amazon.com/images/I/71MffOX7zzL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 2,
+          "Link": "https://m.media-amazon.com/images/I/41HAYlfSwgL.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 2,
+          "Link": "https://m.media-amazon.com/images/I/41HAYlfSwgL._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 3,
+          "Link": "https://m.media-amazon.com/images/I/71vXq+zkgWL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 3,
+          "Link": "https://m.media-amazon.com/images/I/41Kw4foLjbL.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 3,
+          "Link": "https://m.media-amazon.com/images/I/41Kw4foLjbL._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 4,
+          "Link": "https://m.media-amazon.com/images/I/7187QgEzkaL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 4,
+          "Link": "https://m.media-amazon.com/images/I/41MOlKCo+uL.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 4,
+          "Link": "https://m.media-amazon.com/images/I/41MOlKCo+uL._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 5,
+          "Link": "https://m.media-amazon.com/images/I/71ueaJrC3NL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 5,
+          "Link": "https://m.media-amazon.com/images/I/41hFYFNTFYL.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 5,
+          "Link": "https://m.media-amazon.com/images/I/41hFYFNTFYL._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        },
+        {
+          "Variant": 6,
+          "Link": "https://m.media-amazon.com/images/I/71uGcqjftbL.jpg",
+          "Height": 2500,
+          "Width": 2500
+        },
+        {
+          "Variant": 6,
+          "Link": "https://m.media-amazon.com/images/I/4122MAkgKWL.jpg",
+          "Height": 500,
+          "Width": 500
+        },
+        {
+          "Variant": 6,
+          "Link": "https://m.media-amazon.com/images/I/4122MAkgKWL._SL75_.jpg",
+          "Height": 75,
+          "Width": 75
+        }
+      ]
+    }
+  ],
+  "ProductTypes": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "ProductType": "BLANK_BOOK"
+    }
+  ],
+  "Relationships": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Relationships": [
+        {
+          "Type": 1,
+          "ChildAsins": null,
+          "ParentAsins": [
+            "B0DBSPV9Q7"
+          ],
+          "VariationTheme": {
+            "Attributes": [
+              "style"
+            ],
+            "Theme": "STYLE_NAME"
+          }
+        }
+      ]
+    }
+  ],
+  "SalesRanks": [
+    {
+      "MarketplaceId": "A1VC38T7YXB528",
+      "ClassificationRanks": [],
+      "DisplayGroupRanks": []
+    }
+  ],
+  "Summaries": [
+    {
+      "ItemClassification": 1,
+      "MarketplaceId": "A1VC38T7YXB528",
+      "Brand": "テンプリ",
+      "BrowseClassification": {
+        "DisplayName": "学習帳・練習帳",
+        "ClassificationId": "4095902051"
+      },
+      "Color": null,
+      "ItemName": "1桁の足し算のプリント (繰り上がり有)",
+      "Manufacturer": "テンプリ",
+      "ModelNumber": null,
+      "PackageQuantity": 1,
+      "PartNumber": "100002",
+      "ReleaseDate": null,
+      "Size": "A4",
+      "Style": "繰り上がり有",
+      "WebsiteDisplayGroup": "office_product_display_on_website",
+      "WebsiteDisplayGroupName": "Office Product"
+    }
+  ],
+  "VendorDetails": null
+}

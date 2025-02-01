@@ -1,0 +1,125 @@
+{
+  "sku": "example-aku",
+  "summaries": [
+    {
+      "marketplaceId": "ATVPDKIKX0DER",
+      "asin": "XXXASINXXX",
+      "productType": "DRINKING_CUP",
+      "conditionType": "new_new",
+      "status": [
+        "BUYABLE",
+        "DISCOVERABLE"
+      ],
+      "itemName": "6 Pack Coffee Mug Set, Farielyn-X 16 Ounce Ceramic Coffee Cups, Black Large Coffee mugs, Restaurant Coffee Cups for Coffee, Tea, Cappuccino, Cocoa, Cereal, Matte Black Outside and Colorful Inside",
+      "createdDate": "2021-07-14T19:57:02.327Z",
+      "lastUpdatedDate": "2021-07-14T19:57:10.637Z",
+      "mainImage": {
+        "link": "https://m.media-amazon.com/images/I/41epVg7mZoS.jpg",
+        "height": 500,
+        "width": 500
+      }
+    }
+  ],
+  "attributes": {
+    "condition_type": [
+      {
+        "value": "new_new",
+        "marketplace_id": "ATVPDKIKX0DER"
+      }
+    ],
+    "merchant_shipping_group": [
+      {
+        "value": "legacy-template-id",
+        "marketplace_id": "ATVPDKIKX0DER"
+      }
+    ],
+    "merchant_suggested_asin": [
+      {
+        "value": "XXXASINXXX",
+        "marketplace_id": "ATVPDKIKX0DER"
+      }
+    ],
+    "purchasable_offer": [
+      {
+        "currency": "USD",
+        "start_at": {
+          "value": "2021-07-14T19:56:57.717Z"
+        },
+        "our_price": [
+          {
+            "schedule": [
+              {
+                "value_with_tax": 30.0
+              }
+            ]
+          }
+        ],
+        "marketplace_id": "ATVPDKIKX0DER"
+      }
+    ],
+    "fulfillment_availability": [
+      {
+        "fulfillment_channel_code": "DEFAULT",
+        "quantity": 1,
+        "marketplace_id": "ATVPDKIKX0DER"
+      }
+    ],
+    "main_product_image_locator": [
+      {
+        "media_location": "https://media-origin-na-ssl.integ.amazon.com/images/I/xxxx1.jpg",
+        "marketplace_id": "ATVPDKIKX0DER"
+      }
+    ],
+    "other_product_image_locator_1": [
+      {
+        "media_location": "https://media-origin-na-ssl.integ.amazon.com/images/I/xxxxx2.jpg",
+        "marketplace_id": "ATVPDKIKX0DER"
+      }
+    ],
+    "other_product_image_locator_2": [
+      {
+        "media_location": "https://media-origin-na-ssl.integ.amazon.com/images/I/xxxxx3.jpg",
+        "marketplace_id": "ATVPDKIKX0DER"
+      }
+    ]
+  },
+  "issues": [
+    {
+      "message": "Attributes tagged as relevant_attributes are incomplete. Provide values for the following attribute(s): item_weight, theme, item_dimensions, item_diameter",
+      "severity": "WARNING",
+      "attributeName": "item_diameter",
+      "attributeNames": [
+        "item_diameter",
+        "item_dimensions",
+        "item_weight",
+        "theme"
+      ]
+    },
+    {
+      "message": "Attributes tagged as customer_returns are incomplete. Provide values for the following attribute(s): color, item_dimensions, item_weight",
+      "severity": "WARNING",
+      "attributeName": "color",
+      "attributeNames": [
+        "color",
+        "item_dimensions",
+        "item_weight"
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "marketplaceId": "ATVPDKIKX0DER",
+      "offerType": "B2C",
+      "price": {
+        "currency": "USD",
+        "amount": "30.0"
+      }
+    }
+  ],
+  "fulfillmentAvailability": [
+    {
+      "fulfillmentChannelCode": "DEFAULT",
+      "quantity": 1
+    }
+  ]
+}

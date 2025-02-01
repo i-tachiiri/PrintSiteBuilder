@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BlogGenerator": {
+      "commandName": "Project"
+    },
+    "プロファイル 1": {
+      "commandName": "Project"
+    }
+  }
+}
