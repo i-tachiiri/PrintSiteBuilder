@@ -1,0 +1,7 @@
+".vs/" 
+*Constants*
+client_secret.json
+obj/
+bin/
+Archive/PrintSiteBuilder/AmazonService/Auth.cs
+TextToSpeechGenerator/Program.cs
