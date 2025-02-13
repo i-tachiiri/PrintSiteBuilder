@@ -12,4 +12,12 @@
     <PackageReference Include="PDFsharp" Version="6.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleLibrary\ConsoleLibrary.csproj" />
+    <ProjectReference Include="..\ExplorerLibrary\ExplorerLibrary.csproj" />
+    <ProjectReference Include="..\GoogleDriveLibrary\GoogleDriveLibrary.csproj" />
+    <ProjectReference Include="..\GoogleSlideLibrary\GoogleSlideLibrary.csproj" />
+    <ProjectReference Include="..\TempriDomain\TempriDomain.csproj" />
+  </ItemGroup>
+
 </Project>

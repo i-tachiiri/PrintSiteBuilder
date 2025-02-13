@@ -1,11 +1,4 @@
-﻿using ImageMagick;
-using PrintSiteBuilder.Interfaces;
-using PrintSiteBuilder.Models.Print;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PrintSiteBuilder.Interfaces;
 using PrintSiteBuilder.SiteItem;
 using PrintSiteBuilder.GoogleService.Drive;
 using PrintSiteBuilder.Models.General;

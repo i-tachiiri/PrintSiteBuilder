@@ -1,32 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ImageMagick;
-using Microsoft.VisualBasic.Logging;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.IO;
-using System.Security.Policy;
-using static System.Net.Mime.MediaTypeNames;
-using System.Net.Mail;
-using System.Linq.Expressions;
-using PrintSiteBuilder.SiteItem;
-using PrintSiteBuilder.Utilities;
+﻿using ImageMagick;
 using PrintSiteBuilder.Interfaces;
-using Google.Apis.Slides.v1.Data;
-using QRCoder;
-using System.IO;
-using System.Drawing;
 using Svg;
 using Svg.Transforms;
-using System.Xml.Linq;
-using System.Drawing.Printing;
-using PdfSharp.Drawing;
-using PdfSharp.Pdf.IO;
-using PdfSharp.Pdf;
-using PdfSharp.Drawing;
 using PrintSiteBuilder.Models.General;
 
 namespace PrintSiteBuilder.SiteItem

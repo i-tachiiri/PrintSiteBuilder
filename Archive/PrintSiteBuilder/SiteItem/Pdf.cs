@@ -1,21 +1,7 @@
 ﻿using ExCSS;
-using ImageMagick;
 using PrintSiteBuilder.Interfaces;
 using PrintSiteBuilder.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Reflection.PortableExecutable;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using iTextSharp.text;
 using iTextSharp.text.pdf;
-using Svg;
-using System.Drawing;
-using Svg;
-using PdfSharp.Pdf;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf.IO;
 using PrintSiteBuilder.Models.General;
@@ -24,12 +10,10 @@ namespace PrintSiteBuilder.SiteItem
 {
     public class Pdf
     {
-        ItemsConfig itemsConfig;
         IPrint2 iPrint;
-        public Pdf(ItemsConfig _itemsConfig, IPrint2 _iPrint)
+        public Pdf( IPrint2 iPrint)
         {
-            itemsConfig = _itemsConfig;
-            iPrint = _iPrint;
+            this.iPrint = iPrint;
         }
         public void CreatePdf()
         {
