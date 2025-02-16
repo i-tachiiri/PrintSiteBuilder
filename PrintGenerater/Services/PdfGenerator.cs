@@ -10,9 +10,9 @@ namespace PrintGenerater.Services
 {
     public class PdfGenerator
     {
-        PageEntity printEntity;
+        PrintPageEntity printEntity;
         FolderPathValue folderPathValue;
-        public PdfGenerator(PageEntity printEntity, FolderPathValue folderPathValue)
+        public PdfGenerator(PrintPageEntity printEntity, FolderPathValue folderPathValue)
         {
             this.printEntity = printEntity;
             this.folderPathValue = folderPathValue;
