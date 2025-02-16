@@ -1,21 +1,18 @@
 ﻿using Google.Apis.Slides.v1.Data;
 using GoogleSlideLibrary.Repository.Page;
 using TempriDomain.Entity;
+using TempriDomain.Interfaces;
 
 namespace GoogleSlideLibrary.Repository.Print
 {
-    public class Print100007
+    public class Print100007 : IPrint
     {
         private readonly string presentationId = "16Nb-OMgA05mNjhxqeeMFpkHiDz_N4una9TTXZaj4O-s";
         private readonly int printId = 100007;
         private readonly string printName = "ひとけたのたしざん(くりあがりなし)";
         private readonly int pagesCount = 20;
         private readonly int score = 10;
-        private PrintPage100007 page100007;
-        public Print100007(PrintPage100007 page100007)
-        {
-            this.page100007 = page100007;
-        }
+        private PrintPage100007 page100007 = new PrintPage100007();
 
         public async Task<PrintEntity> GetPrintAsync()
         {
