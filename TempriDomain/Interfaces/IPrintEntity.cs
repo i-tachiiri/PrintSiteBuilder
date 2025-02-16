@@ -2,7 +2,7 @@
 
 namespace TempriDomain.Interfaces
 {
-    public interface IPrint
+    public interface IPrintEntity
     {
         Task<PrintEntity> GetPrintAsync();
     }

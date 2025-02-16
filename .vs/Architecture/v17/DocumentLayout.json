@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\work\\PrintSiteBuilder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41457D74-622E-411A-AE26-E34C2C8D2D01}|GoogleSlideLibrary\\GoogleSlideLibrary.csproj|c:\\work\\printsitebuilder\\googleslidelibrary\\repository\\print\\print100007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41457D74-622E-411A-AE26-E34C2C8D2D01}|GoogleSlideLibrary\\GoogleSlideLibrary.csproj|solutionrelative:googleslidelibrary\\repository\\print\\print100007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2952A1C2-4F7B-4A8C-B9B6-B828EE7190E3}|TempriDomain\\TempriDomain.csproj|c:\\work\\printsitebuilder\\tempridomain\\interfaces\\iprintentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952A1C2-4F7B-4A8C-B9B6-B828EE7190E3}|TempriDomain\\TempriDomain.csproj|solutionrelative:tempridomain\\interfaces\\iprintentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\services\\pdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\services\\pdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\services\\printcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\services\\printcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\factories\\printfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\factories\\printfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2952A1C2-4F7B-4A8C-B9B6-B828EE7190E3}|TempriDomain\\TempriDomain.csproj|c:\\work\\printsitebuilder\\tempridomain\\interfaces\\iprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2952A1C2-4F7B-4A8C-B9B6-B828EE7190E3}|TempriDomain\\TempriDomain.csproj|solutionrelative:tempridomain\\interfaces\\iprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2952A1C2-4F7B-4A8C-B9B6-B828EE7190E3}|TempriDomain\\TempriDomain.csproj|c:\\work\\printsitebuilder\\tempridomain\\tempridomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2952A1C2-4F7B-4A8C-B9B6-B828EE7190E3}|TempriDomain\\TempriDomain.csproj|solutionrelative:tempridomain\\tempridomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2357082D-7A83-403E-B45B-5D1ADFF74DE7}|MathGenerator\\MathGenerator.csproj|c:\\work\\printsitebuilder\\mathgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2357082D-7A83-403E-B45B-5D1ADFF74DE7}|MathGenerator\\MathGenerator.csproj|solutionrelative:mathgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\printgenerater.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\printgenerater.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\services\\printcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\services\\printcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41457D74-622E-411A-AE26-E34C2C8D2D01}|GoogleSlideLibrary\\GoogleSlideLibrary.csproj|c:\\work\\printsitebuilder\\googleslidelibrary\\repository\\print\\print100007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41457D74-622E-411A-AE26-E34C2C8D2D01}|GoogleSlideLibrary\\GoogleSlideLibrary.csproj|solutionrelative:googleslidelibrary\\repository\\print\\print100007.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952A1C2-4F7B-4A8C-B9B6-B828EE7190E3}|TempriDomain\\TempriDomain.csproj|c:\\work\\printsitebuilder\\tempridomain\\tempridomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2952A1C2-4F7B-4A8C-B9B6-B828EE7190E3}|TempriDomain\\TempriDomain.csproj|solutionrelative:tempridomain\\tempridomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,16 +46,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPrint.cs",
-              "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\TempriDomain\\Interfaces\\IPrint.cs",
-              "RelativeDocumentMoniker": "TempriDomain\\Interfaces\\IPrint.cs",
-              "ToolTip": "C:\\work\\PrintSiteBuilder\\TempriDomain\\Interfaces\\IPrint.cs",
-              "RelativeToolTip": "TempriDomain\\Interfaces\\IPrint.cs",
+              "DocumentIndex": 1,
+              "Title": "PdfGenerator.cs",
+              "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Services\\PdfGenerator.cs",
+              "RelativeDocumentMoniker": "PrintGenerater\\Services\\PdfGenerator.cs",
+              "ToolTip": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Services\\PdfGenerator.cs",
+              "RelativeToolTip": "PrintGenerater\\Services\\PdfGenerator.cs",
+              "ViewState": "AgIAAAMAAADEY2ZmZmYkwA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T15:08:13.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\MathGenerator\\Program.cs",
+              "RelativeDocumentMoniker": "MathGenerator\\Program.cs",
+              "ToolTip": "C:\\work\\PrintSiteBuilder\\MathGenerator\\Program.cs",
+              "RelativeToolTip": "MathGenerator\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:52:42.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Program.cs",
+              "RelativeDocumentMoniker": "PrintGenerater\\Program.cs",
+              "ToolTip": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Program.cs",
+              "RelativeToolTip": "PrintGenerater\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:52:38.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IPrintEntity.cs",
+              "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\TempriDomain\\Interfaces\\IPrintEntity.cs",
+              "RelativeDocumentMoniker": "TempriDomain\\Interfaces\\IPrintEntity.cs",
+              "ToolTip": "C:\\work\\PrintSiteBuilder\\TempriDomain\\Interfaces\\IPrintEntity.cs",
+              "RelativeToolTip": "TempriDomain\\Interfaces\\IPrintEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T09:02:34.607Z",
@@ -51,34 +110,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TempriDomain",
+              "DocumentIndex": 8,
+              "Title": "TempriDomain.csproj",
               "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\TempriDomain\\TempriDomain.csproj",
               "RelativeDocumentMoniker": "TempriDomain\\TempriDomain.csproj",
               "ToolTip": "C:\\work\\PrintSiteBuilder\\TempriDomain\\TempriDomain.csproj",
               "RelativeToolTip": "TempriDomain\\TempriDomain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-16T09:01:35.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T09:01:35.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PrintFactory.cs",
               "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Factories\\PrintFactory.cs",
               "RelativeDocumentMoniker": "PrintGenerater\\Factories\\PrintFactory.cs",
               "ToolTip": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Factories\\PrintFactory.cs",
               "RelativeToolTip": "PrintGenerater\\Factories\\PrintFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAwwA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T08:53:42.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PrintGenerater",
+              "DocumentIndex": 6,
+              "Title": "PrintGenerater.csproj",
               "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\PrintGenerater.csproj",
               "RelativeDocumentMoniker": "PrintGenerater\\PrintGenerater.csproj",
               "ToolTip": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\PrintGenerater.csproj",
@@ -89,35 +147,27 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "PrintController.cs",
               "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Services\\PrintController.cs",
               "RelativeDocumentMoniker": "PrintGenerater\\Services\\PrintController.cs",
               "ToolTip": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Services\\PrintController.cs",
               "RelativeToolTip": "PrintGenerater\\Services\\PrintController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T08:47:08.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Print100007.cs",
               "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\GoogleSlideLibrary\\Repository\\Print\\Print100007.cs",
               "RelativeDocumentMoniker": "GoogleSlideLibrary\\Repository\\Print\\Print100007.cs",
               "ToolTip": "C:\\work\\PrintSiteBuilder\\GoogleSlideLibrary\\Repository\\Print\\Print100007.cs",
               "RelativeToolTip": "GoogleSlideLibrary\\Repository\\Print\\Print100007.cs",
-              "ViewState": "AgIAAAoAAAAAMDMzMzPjvw4AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAADgMjMzMzMbwA4AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T08:47:08.764Z",
               "EditorCaption": ""

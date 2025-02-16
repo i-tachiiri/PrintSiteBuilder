@@ -5,7 +5,7 @@ using TempriDomain.Interfaces;
 
 namespace GoogleSlideLibrary.Repository.Print
 {
-    public class Print100007 : IPrint
+    public class Print100007 : IPrintEntity
     {
         private readonly string presentationId = "16Nb-OMgA05mNjhxqeeMFpkHiDz_N4una9TTXZaj4O-s";
         private readonly int printId = 100007;
