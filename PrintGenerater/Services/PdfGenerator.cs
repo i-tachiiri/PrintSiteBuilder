@@ -4,13 +4,14 @@ using iTextSharp.text.pdf;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf.IO;
 using TempriDomain.Entity;
+using TempriDomain.Interfaces;
 using TempriDomain.ValueObject;
 
 namespace PrintGenerater.Services
 {
     public class PdfGenerator
     {
-        PrintPageEntity printEntity;
+        IPrintEntity printEntity;
         FolderPathValue folderPathValue;
         public PdfGenerator(PrintPageEntity printEntity, FolderPathValue folderPathValue)
         {
