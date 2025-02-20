@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work\\PrintSiteBuilder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Program.cs",
+              "RelativeDocumentMoniker": "PrintGenerater\\Program.cs",
+              "ToolTip": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Program.cs",
+              "RelativeToolTip": "PrintGenerater\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:05:43.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
