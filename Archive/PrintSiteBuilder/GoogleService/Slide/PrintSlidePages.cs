@@ -1,17 +1,6 @@
-﻿using Google.Apis.Services;
-using Google.Apis.Slides.v1;
+﻿using Google.Apis.Slides.v1;
 using Google.Apis.Slides.v1.Data;
-using Newtonsoft.Json.Linq;
 using PrintSiteBuilder.Interfaces;
-using PrintSiteBuilder.Models.Print;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading.Tasks;
-
-
 
 namespace PrintSiteBuilder.GoogleService.Slide
 {
