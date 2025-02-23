@@ -7,6 +7,8 @@ using TempriDomain.Config;
 using TempriDomain.ValueObject;
 using TempriDomain.Entity;
 using Google.Apis.Slides.v1.Data;
+using PrintGenerater.Factories;
+using TempriDomain.Interfaces;
 namespace PrintGenerater.Services
 {
     public class SvgDownloader
@@ -15,31 +17,29 @@ namespace PrintGenerater.Services
         private ExportService exportService;
         private ConsoleRepository consoleRepository;
         private FolderPathValue folderPathValue;
-        public SvgDownloader(AuthorityService authorityService,ConsoleRepository consoleRepository, ExportService exportService, FolderPathValue folderPathValue)
+        private readonly PrintFactory printFactory;
+
+        public SvgDownloader(PrintFactory printFactory,AuthorityService authorityService,ConsoleRepository consoleRepository, ExportService exportService, FolderPathValue folderPathValue)
         {
+            this.printFactory = printFactory;
             this.authorityService = authorityService;
             this.consoleRepository = consoleRepository;
             this.exportService = exportService;
             this.folderPathValue = folderPathValue;
         }
-        public async Task ExportPrintImages(string SlideId,string Extention)
+        public async Task ExportSvgs(IPrint iPrint)
         {
-            //var slidePages = new SlidePages(SlideId);
-            //var PrintConfigs = iPrint.PrintType.GetPrintConfigs();
-            var xxx = new PrintEntity();  //仮
-            var yyy = new PrintPageEntity();　//仮
-            Presentation presentation = 
-            authorityService.PermitReadToPublic(SlideId);
-            foreach (var printConfig in PrintConfigs)  //各PrintのConfigに対して
+            await authorityService.PermitReadToPublic(iPrint.PresentationId);
+            foreach (var page in iPrint.Pages)  //各PrintのConfigに対して
             {
-                consoleRepository.LoopLog($"Export {Extention}");
+                consoleRepository.LoopLog($"Exporting SVGs.");
 
-                var DownloadUrl = $"https://docs.google.com/presentation/d/{SlideId}/export/{Extention}?pageid={slidePages.presentation.Slides[printConfig.headerConfig.PageIndex].ObjectId}";
-                var printType = yyy.PrintType == "問題" ? "q" : "a";
-                var ExportPath = Path.Combine(folderPathValue.SvgDir, $@"{xxx.PrintId}-{yyy.PageNumber.ToString("D3")}-{printType}.{Extention}");  
+                var DownloadUrl = $"https://docs.google.com/presentation/d/{iPrint.PresentationId}/export/svg?pageid={page.PageObjectId}";
+                var printType = page.IsAnswerPage ? "a" : "q";
+                var ExportPath = Path.Combine(folderPathValue.SvgDir, $@"{iPrint.PrintId}-{page.PageNumber.ToString("D3")}-{printType}.svg");  
                 await exportService.ExportImage(DownloadUrl, ExportPath);
             }
-            authorityService.DenyPublicAccess(SlideId);
+            authorityService.DenyPublicAccess(iPrint.PresentationId);
         }
     }
 }

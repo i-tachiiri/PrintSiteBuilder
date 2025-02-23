@@ -9,6 +9,6 @@
         public int PagesCount { get; set; }
         public int Score { get; set; }
 
-        public List<PrintPageEntity> PageEntityList { get; set; }
+        public List<PageEntity> PageEntityList { get; set; }
     }
 }

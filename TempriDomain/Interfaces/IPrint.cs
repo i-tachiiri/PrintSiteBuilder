@@ -4,11 +4,13 @@ namespace TempriDomain.Interfaces
 {
     public interface IPrint
     {
-        Task<PrintEntity> GetPrintAsync();
-        string presentationId {  get; }
-        int printId {  get; }
-        int pagesCount {  get; }
-        int score {  get; }
-        List<IPage> pages { get; }
+        Task<PrintEntity> SetPrintAsync();
+        string PresentationId {  get; }
+        string PrintName { get; }
+
+        int PrintId {  get; }
+        int PagesCount {  get; }
+        int Score {  get; }
+        List<IPage> Pages { get; }
     }
 }

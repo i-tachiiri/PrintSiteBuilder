@@ -43,7 +43,7 @@ namespace ExplorerLibrary.Services
         }
 
 
-        public void GenerateAndExecuteBat(string batTemplateName,string printId)
+        public void GenerateAndExecuteBat(string batTemplateName,int printId)
         {
             try
             {
@@ -66,7 +66,7 @@ namespace ExplorerLibrary.Services
 
                 // テンプレートバッチを読み込んでプレースホルダーを置換
                 string scriptContent = File.ReadAllText(templateFilePath);
-                scriptContent = scriptContent.Replace("{ID}", printId);
+                scriptContent = scriptContent.Replace("{ID}", printId.ToString());
                 File.WriteAllText(newFilePath, scriptContent, Encoding.UTF8);
 
                 // バッチを実行（ExecuteBat を呼び出す）

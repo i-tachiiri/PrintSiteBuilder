@@ -1,30 +1,27 @@
-﻿using GoogleSlideLibrary.Repository.PageQuestion;
-using GoogleSlideLibrary.Services;
+﻿using GoogleSlideLibrary.Services;
 using TempriDomain.Entity;
 
 namespace GoogleSlideLibrary.Repository.Page
 {
     public class Page100007
     {
-        private Question100007 pageQuestion100007;
         private PageService pageService;
 
-        public Page100007(Question100007 pageQuestion100007, PageService pageService)
+        public Page100007(PageService pageService)
         {
-            this.pageQuestion100007 = pageQuestion100007;
             this.pageService = pageService;
         }
 
-        public async Task<List<PrintPageEntity>> SetPageAsync(string presentationId,int pageCount)
+        public async Task<List<PageEntity>> SetPageAsync(string presentationId,int pageCount)
         {
-            var entities = new List<PrintPageEntity>();
+            var entities = new List<PageEntity>();
 
             //PageNumber is 1,1,2,2...(The type int discards the fractional part)
             //PageIndex is 0,1,2,3...
             //AnswerPage has an odd PageIndex
             for(var i=0;i< pageCount; i++)
             {
-                entities.Add(new PrintPageEntity()
+                entities.Add(new PageEntity()
                 {
                     PageObjectId = await pageService.GetPageObjectIdByIndex(presentationId,i),
                     PageNumber = i/2 + 1,
@@ -32,17 +29,6 @@ namespace GoogleSlideLibrary.Repository.Page
                     IsAnswerPage = i%2 == 1,
                 });
             }
-
-            //Set parent entity ⇔ child entity 
-            var tasks = entities.Select(async entity =>
-            {
-                entity.QuestionList = await pageQuestion100007.SetPageQuestionEntity(entity.PageNumber);
-                foreach (var pageQuestion in entity.QuestionList)
-                {
-                    pageQuestion.PageEntity = entity;
-                }
-            });
-            await Task.WhenAll(tasks);
 
             return entities;
         }

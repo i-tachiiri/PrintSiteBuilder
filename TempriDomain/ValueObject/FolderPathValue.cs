@@ -22,7 +22,7 @@ namespace TempriDomain.ValueObject
         public FolderPathValue(string printId)
         {
             string basePath = Path.Combine(TempriConstants.BaseDir, printId);
-
+            Directory.CreateDirectory(basePath);
             foreach (var prop in GetType().GetProperties().Where(p => p.PropertyType == typeof(string)))
             {
                 string dir = Path.Combine(basePath, prop.Name.ToLower().Replace("dir", ""));

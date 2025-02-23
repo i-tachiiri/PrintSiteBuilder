@@ -11,17 +11,17 @@ namespace PrintGenerater.Services
 {
     public class PdfGenerator
     {
-        IPrintEntity printEntity;
+        IPrint print;
         FolderPathValue folderPathValue;
-        public PdfGenerator(PrintPageEntity printEntity, FolderPathValue folderPathValue)
+        public PdfGenerator(IPrint print, FolderPathValue folderPathValue)
         {
-            this.printEntity = printEntity;
+            this.print = print;
             this.folderPathValue = folderPathValue;
         }
         /// <summary>
         /// SVGからベクター形式のPDFを作成し、1ページ4問の回答PDFの作成後、カバー・問題・回答を結合したPDFを作成します。
         /// </summary>
-        public void CreatePdfFromSvg()
+        public void CreatePdf()
         {
             CreateVectorPdf();
             CreateGroupedAnswerPdf();
@@ -34,7 +34,7 @@ namespace PrintGenerater.Services
         private void CreateVectorPdf()  
         {
             var bat = new BatService();
-            bat.GenerateAndExecuteBat("svg-to-pdf-template.txt",  printEntity.PrintId);
+            bat.GenerateAndExecuteBat("svg-to-pdf-template.txt",  print.PrintId);
         }
         /// <summary>
         /// 回答PDFを1ページあたり4問のレイアウトにして出力します。
@@ -89,7 +89,7 @@ namespace PrintGenerater.Services
         /// </summary>
         private void CreateGoodsPdf()
         {
-            var cover = new List<string> { Path.Combine(folderPathValue.CoverDir, $"{printEntity.PrintId}-cover.pdf") };
+            var cover = new List<string> { Path.Combine(folderPathValue.CoverDir, $"{print.PrintId}-cover.pdf") };
             var questions = Directory.GetFiles(folderPathValue.PdfqDir, "*.pdf").ToList();
             var answers = Directory.GetFiles(folderPathValue.Pdf4Dir, "*.pdf").ToList();
             var paths = cover.Concat(questions.Concat(answers)).ToList();

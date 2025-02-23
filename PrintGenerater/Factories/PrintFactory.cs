@@ -12,7 +12,7 @@ namespace PrintGenerater.Factories
         {
             this.serviceProvider = serviceProvider; // Use DI container to manage instances
         }
-        public IPrintEntity CreateInstance(int printId)
+        public IPrint CreateInstance(int printId)
         {
             return printId switch
             {
