@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\work\\PrintSiteBuilder\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41457D74-622E-411A-AE26-E34C2C8D2D01}|GoogleSlideLibrary\\GoogleSlideLibrary.csproj|c:\\work\\printsitebuilder\\googleslidelibrary\\services\\slideservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41457D74-622E-411A-AE26-E34C2C8D2D01}|GoogleSlideLibrary\\GoogleSlideLibrary.csproj|solutionrelative:googleslidelibrary\\services\\slideservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41457D74-622E-411A-AE26-E34C2C8D2D01}|GoogleSlideLibrary\\GoogleSlideLibrary.csproj|c:\\work\\printsitebuilder\\googleslidelibrary\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41457D74-622E-411A-AE26-E34C2C8D2D01}|GoogleSlideLibrary\\GoogleSlideLibrary.csproj|solutionrelative:googleslidelibrary\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|c:\\work\\printsitebuilder\\printgenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F2CB2BA-9465-4798-9D8A-6F0FEF491369}|PrintGenerater\\PrintGenerater.csproj|solutionrelative:printgenerater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SlideService.cs",
               "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\GoogleSlideLibrary\\Services\\SlideService.cs",
               "RelativeDocumentMoniker": "GoogleSlideLibrary\\Services\\SlideService.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PageService.cs",
               "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\GoogleSlideLibrary\\Services\\PageService.cs",
               "RelativeDocumentMoniker": "GoogleSlideLibrary\\Services\\PageService.cs",
@@ -51,12 +51,11 @@
               "RelativeToolTip": "GoogleSlideLibrary\\Services\\PageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T10:21:00.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T10:21:00.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\work\\PrintSiteBuilder\\PrintGenerater\\Program.cs",
               "RelativeDocumentMoniker": "PrintGenerater\\Program.cs",
