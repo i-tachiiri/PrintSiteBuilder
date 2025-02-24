@@ -1,5 +1,7 @@
 ﻿using Google.Apis.Slides.v1;
 using Google.Apis.Slides.v1.Data;
+using GoogleSlideLibrary.Config;
+using TempriDomain.Interfaces;
 
 namespace GoogleSlideLibrary.Services
 {
@@ -8,10 +10,12 @@ namespace GoogleSlideLibrary.Services
         public string PresentationID;
         public SlidesService slideService;
         public Presentation presentation;
-        public SlideService(string ID)
+        private readonly SlidesConnecter slidesConnecter;
+        public SlideService(string ID, SlidesConnecter slidesConnecter)
         {
             PresentationID = ID;
-            slideService = googleApi.GetSlideService();
+            this.slidesConnecter = slidesConnecter;
+            slideService = slidesConnecter.GetSlidesService();
             presentation = slideService.Presentations.Get(PresentationID).Execute();
         }
         public void batchUpdate(List<Request> requests)
@@ -23,10 +27,10 @@ namespace GoogleSlideLibrary.Services
             }
             catch ( Exception ex )
             {
-                MessageBox.Show($"[Utilities.SlidePages.BatchUpdate]{ex.Message}");
+                //MessageBox.Show($"[Utilities.SlidePages.BatchUpdate]{ex.Message}");
             }
         }
-        public void SyncPageNumber(IPrint2 printClass)
+        public void SyncPageNumber(IPrintEntity printClass)
         {
             int desiredPageCount = printClass.PagesCount * 2;
             int currentPageCount = presentation.Slides.Count;

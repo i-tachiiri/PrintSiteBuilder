@@ -5,21 +5,14 @@ namespace PrintGenerater.Services
 {
     public class TemplateDuplicator
     {
-        IPrint print;
-        FolderPathValue folderPathValue;
-        public TemplateDuplicator(IPrint print, FolderPathValue folderPathValue)
+        public void SetPrintDirectory(IPrintEntity print)
         {
-            this.print = print;
-            this.folderPathValue = folderPathValue;
+            DuplicateTemplate(print.PrintId.ToString());
         }
-        public void SetPrintDirectory()
-        {
-            DuplicateTemplate();
-        }
-        private void DuplicateTemplate()
+        private void DuplicateTemplate(string PrintId)
         {
             var SourceFolder = TempriConstants.TemplateDir;
-            var TergetFolder = Path.Combine(TempriConstants.BaseDir, print.PrintId.ToString());
+            var TergetFolder = Path.Combine(TempriConstants.BaseDir, PrintId);
             Directory.CreateDirectory(TergetFolder);
             foreach (var file in Directory.EnumerateFiles(SourceFolder, "*", SearchOption.AllDirectories))
             {

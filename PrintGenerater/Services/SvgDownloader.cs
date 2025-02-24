@@ -27,7 +27,7 @@ namespace PrintGenerater.Services
             this.exportService = exportService;
             this.folderPathValue = folderPathValue;
         }
-        public async Task ExportSvgs(IPrint iPrint)
+        public async Task ExportSvgs(IPrintEntity iPrint)
         {
             await authorityService.PermitReadToPublic(iPrint.PresentationId);
             foreach (var page in iPrint.Pages)  //各PrintのConfigに対して

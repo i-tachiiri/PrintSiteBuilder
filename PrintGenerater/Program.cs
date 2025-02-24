@@ -8,6 +8,8 @@ services.AddSingleton<PrintFactory>();
 services.AddSingleton<PdfGenerator>();
 services.AddSingleton<SvgDownloader>();
 services.AddSingleton<PrintController>();
+services.AddSingleton<QrGenerator>();
+
 
 var serviceProvider = services.BuildServiceProvider();
 var controller = serviceProvider.GetRequiredService<PrintController>();

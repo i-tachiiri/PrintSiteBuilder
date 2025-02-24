@@ -1,45 +1,30 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using TempriDomain.Entity;
+﻿using TempriDomain.Entity;
 using TempriDomain.Interfaces;
-using GoogleSlideLibrary.Repository.Page;
 
 namespace GoogleSlideLibrary.Repository.Print
 {
-    public class Print100007 : IPrint
+    public class Print100007 : PrintEntity
     {
-        // Properties with public getters (following PascalCase naming convention)
-        public string PresentationId { get; } = "16Nb-OMgA05mNjhxqeeMFpkHiDz_N4una9TTXZaj4O-s";
-        public int PrintId { get; } = 100007;
-        public int PagesCount { get; } = 20;
-        public string PrintName { get; } = "xxx";
-        public int Score { get; } = 10;
-        public List<IPage> Pages { get; }
-
-        // Constructor injection for pages
-        public Print100007(List<IPage> pages)
+        public Print100007()
         {
-            Pages = pages ?? new List<IPage>(); // Ensure Pages is initialized
+            PresentationId = "1BE4fkQXXKzXHjxSTwmK3MAg9ZBEJ6qB5U0siIP9VoG4";
+            PrintId = 100007;
+            PagesCount = 20;
+            PrintName = "接尾辞";
+            Score = 10;
+            Pages = new List<IPageEntity>();
         }
 
-        public async Task<PrintEntity> SetPrintAsync()
+        protected override PrintEntity CreateInstanceWithPages(List<IPageEntity> pages)
         {
-            var pageEntities = new List<PageEntity>();
-
-            foreach (var page in Pages)
-            {
-                var pageEntity = await page.SetPageAsync(PresentationId, PagesCount);
-                pageEntities.AddRange(pageEntity);
-            }
-
-            return new PrintEntity
+            return new Print100007
             {
                 PresentationId = PresentationId,
                 PrintId = PrintId,
                 PrintName = PrintName,
                 PagesCount = PagesCount,
                 Score = Score,
-                PageEntityList = pageEntities
+                Pages = pages
             };
         }
     }

@@ -11,39 +11,33 @@ namespace PrintGenerater.Services
 {
     public class PdfGenerator
     {
-        IPrint print;
-        FolderPathValue folderPathValue;
-        public PdfGenerator(IPrint print, FolderPathValue folderPathValue)
-        {
-            this.print = print;
-            this.folderPathValue = folderPathValue;
-        }
+
         /// <summary>
         /// SVGからベクター形式のPDFを作成し、1ページ4問の回答PDFの作成後、カバー・問題・回答を結合したPDFを作成します。
         /// </summary>
-        public void CreatePdf()
+        public void CreatePdf(IPrintEntity print)
         {
-            CreateVectorPdf();
-            CreateGroupedAnswerPdf();
-            CreateGoodsPdf();
+            CreateVectorPdf(print.PrintId);
+            CreateGroupedAnswerPdf(print);
+            CreateGoodsPdf(print);
         }
         /// <summary>
         /// ベクター形式のPDFを作成するためにinkscapeでのSVG-PDF変換を行います。
         /// SVGのファイル名を見て、問題と回答を識別し、別々のフォルダへ出力しています。
         /// </summary>
-        private void CreateVectorPdf()  
+        private void CreateVectorPdf(int PrintId)  
         {
             var bat = new BatService();
-            bat.GenerateAndExecuteBat("svg-to-pdf-template.txt",  print.PrintId);
+            bat.GenerateAndExecuteBat("svg-to-pdf-template.txt",  PrintId);
         }
         /// <summary>
         /// 回答PDFを1ページあたり4問のレイアウトにして出力します。
         /// </summary>
-        private void CreateGroupedAnswerPdf()
+        private void CreateGroupedAnswerPdf(IPrintEntity print)
         {
             try
             {
-                var pdfFiles = Directory.GetFiles(folderPathValue.PdfaDir, "*-a.pdf").ToList();
+                var pdfFiles = Directory.GetFiles(print.GetDirectoryPathWithName("pdf-a"), "*-a.pdf").ToList();
 
                 var i = 0;
                 var chunks = GroupByChunk(pdfFiles, 4);
@@ -76,7 +70,7 @@ namespace PrintGenerater.Services
                     DrawPdfPage(gfx, inputPdf4.FullPath, subWidth, subHeight, subWidth, subHeight);
 
                     // PDFを保存
-                    outputPdf.Save(Path.Combine(folderPathValue.Pdf4Dir, $@"{pdfFiles.Count()}-{i.ToString("D3")}-answer.pdf"));
+                    outputPdf.Save(Path.Combine(print.GetDirectoryPathWithName("pdf-4"), $@"{pdfFiles.Count()}-{i.ToString("D3")}-answer.pdf"));
                 }
             }
             catch (Exception ex)
@@ -87,13 +81,13 @@ namespace PrintGenerater.Services
         /// <summary>
         /// カバー画像・問題・回答をくっつけて1つのプリントにします。
         /// </summary>
-        private void CreateGoodsPdf()
+        private void CreateGoodsPdf(IPrintEntity print)
         {
-            var cover = new List<string> { Path.Combine(folderPathValue.CoverDir, $"{print.PrintId}-cover.pdf") };
-            var questions = Directory.GetFiles(folderPathValue.PdfqDir, "*.pdf").ToList();
-            var answers = Directory.GetFiles(folderPathValue.Pdf4Dir, "*.pdf").ToList();
+            var cover = new List<string> { Path.Combine(print.GetDirectoryPathWithName("cover"), $"{print.PrintId}-cover.pdf") };
+            var questions = Directory.GetFiles(print.GetDirectoryPathWithName("pdf-q"), "*.pdf").ToList();
+            var answers = Directory.GetFiles(print.GetDirectoryPathWithName("pdf-4"), "*.pdf").ToList();
             var paths = cover.Concat(questions.Concat(answers)).ToList();
-            CombinePDFs(paths, Path.Combine(folderPathValue.GoodsDir, "goods.pdf"));
+            CombinePDFs(paths, Path.Combine(print.GetDirectoryPathWithName("goods"), "goods.pdf"));
         }
 
         private void CombinePDFs(List<string> PdfPaths, string ExportPath)

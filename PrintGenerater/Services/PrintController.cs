@@ -11,22 +11,28 @@ namespace PrintGenerater.Services
         private readonly PrintFactory printFactory;
         private readonly HtmlGenerator htmlGenerator;
         private readonly TemplateDuplicator templateDuplicator;
-
-        public PrintController(SvgDownloader svgDownloader, PdfGenerator pdfGenerator, PrintFactory printFactory,HtmlGenerator htmlGenerator, TemplateDuplicator templateDuplicator)
+        private readonly QrGenerator qrGenerator;
+        private readonly QrAttacher qrAttacher;
+        public PrintController(SvgDownloader svgDownloader, PdfGenerator pdfGenerator, PrintFactory printFactory,
+            HtmlGenerator htmlGenerator, TemplateDuplicator templateDuplicator, QrGenerator qrGenerator,QrAttacher qrAttacher)
         {
             this.svgDownloader = svgDownloader;
             this.pdfGenerator = pdfGenerator;   
             this.printFactory = printFactory;
             this.htmlGenerator = htmlGenerator;
             this.templateDuplicator = templateDuplicator;
+            this.qrGenerator = qrGenerator;
+            this.qrAttacher = qrAttacher;
         }
         public async Task GeneratePrint(int PrintId)
         {
             var PrintClass = printFactory.CreateInstance(PrintId);
-            templateDuplicator.SetPrintDirectory();
+            templateDuplicator.SetPrintDirectory(PrintClass);
             await svgDownloader.ExportSvgs(PrintClass);
-            pdfGenerator.CreatePdf();
-            htmlGenerator.GenerateHtml();
+            qrGenerator.ExportQrCodes(PrintClass);
+            //qrAttacher
+            pdfGenerator.CreatePdf(PrintClass);
+            htmlGenerator.GenerateHtml(PrintClass);
         }
     }
 }

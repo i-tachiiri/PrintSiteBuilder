@@ -1,12 +1,9 @@
-﻿using Google.Apis.Slides.v1;
-using Google.Apis.Slides.v1.Data;
-using System;
-using System.Threading.Tasks;
-using GoogleSlideLibrary.Config;
+﻿using GoogleSlideLibrary.Config;
+using TempriDomain.Interfaces;
 
 namespace GoogleSlideLibrary.Services
 {
-    public class PageService
+    public class PageService : IPageService
     {
         private readonly SlidesConnecter slidesConnecter;
 
