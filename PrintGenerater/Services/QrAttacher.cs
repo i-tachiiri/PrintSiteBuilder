@@ -5,7 +5,7 @@ using TempriDomain.Interfaces;
 
 namespace PrintGenerater.Services
 {
-    public class SvgQrInserter
+    public class QrAttacher
     {
         private const double SvgWidthCm = 21.0;  // Standard A4 width
         private const double SvgHeightCm = 29.7; // Standard A4 height
