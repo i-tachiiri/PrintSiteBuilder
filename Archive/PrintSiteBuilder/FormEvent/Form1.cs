@@ -111,7 +111,7 @@ namespace PrintSiteBuilder
             }
             itemsConfig = json.DeserializeItemsConfig(iPrint);
             var image = new Image2(itemsConfig, iPrint);
-            var pdf = new Pdf(itemsConfig, iPrint);
+            var pdf = new Pdf(iPrint);
             var php = new Php(itemsConfig, iPrint);
             var uuid = new Uuid(iPrint);
             if (IsExportLogo.Checked)

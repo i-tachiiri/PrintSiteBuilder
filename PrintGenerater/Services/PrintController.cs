@@ -26,11 +26,16 @@ namespace PrintGenerater.Services
         }
         public async Task GeneratePrint(int PrintId)
         {
+            //Old Print classes are at:C:\drive\work\solution\PrintSiteBuilder
+            //Create Svg and movin classes to this projects
+
             var PrintClass = printFactory.CreateInstance(PrintId);
             templateDuplicator.SetPrintDirectory(PrintClass);
             await svgDownloader.ExportSvgs(PrintClass);
             qrGenerator.ExportQrCodes(PrintClass);
-            //qrAttacher
+            qrAttacher.InsertQrToPrint(PrintClass);
+            //Barcode...
+            //cover generator(now on this part)
             pdfGenerator.CreatePdf(PrintClass);
             htmlGenerator.GenerateHtml(PrintClass);
         }

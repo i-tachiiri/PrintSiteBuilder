@@ -39,7 +39,6 @@
     <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="13.6.0" />
     <PackageReference Include="MeCab.DotNet" Version="1.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="NMeCab" Version="0.6.4" />
     <PackageReference Include="NUnit" Version="4.1.0" />
     <PackageReference Include="PdfSharp" Version="6.1.1" />
     <PackageReference Include="QRCoder" Version="1.4.3" />
@@ -62,6 +61,34 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\admin\.nuget\packages\mecab.dotnet\1.2.0\build\..\content\dic\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\admin\.nuget\packages\mecab.dotnet\1.2.0\build\..\content\dic\unk.dic" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\admin\.nuget\packages\mecab.dotnet\1.2.0\build\..\content\dic\sys.dic" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\admin\.nuget\packages\mecab.dotnet\1.2.0\build\..\content\dic\README.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\admin\.nuget\packages\mecab.dotnet\1.2.0\build\..\content\dic\matrix.bin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\admin\.nuget\packages\mecab.dotnet\1.2.0\build\..\content\dic\dicrc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\admin\.nuget\packages\mecab.dotnet\1.2.0\build\..\content\dic\char.bin" />
   </ItemGroup>
 
 </Project>

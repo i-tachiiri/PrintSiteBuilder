@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintGenerator", "PrintGenerator\PrintGenerator.csproj", "{EF10CC94-67CB-47CA-B3B9-1D3613EA385D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintSiteBuilder2309", "PrintSiteBuilder\PrintSiteBuilder2309.csproj", "{11CDB625-4408-45EF-884B-91C6BC6D3A1A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintSiteBuilder2409 - Backup (1)", "PrintSiteBuilder2409\PrintSiteBuilder2409 - Backup (1).csproj", "{89E1677B-C4C5-40F8-B8D1-CE9718044694}"
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF10CC94-67CB-47CA-B3B9-1D3613EA385D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF10CC94-67CB-47CA-B3B9-1D3613EA385D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF10CC94-67CB-47CA-B3B9-1D3613EA385D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF10CC94-67CB-47CA-B3B9-1D3613EA385D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{11CDB625-4408-45EF-884B-91C6BC6D3A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11CDB625-4408-45EF-884B-91C6BC6D3A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11CDB625-4408-45EF-884B-91C6BC6D3A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
